@@ -1,0 +1,4 @@
+.testimonial1-img1:hover > .skills{
+    transition:3s;
+    trabsform:scaleX(1)
+}

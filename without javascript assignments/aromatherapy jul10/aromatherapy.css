@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    color: white;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    /* background-image: url("https://img.freepik.com/premium-photo/beautiful-spa-composition-table-wellness-center-al-generated_866663-4940.jpg?w=360"); */
+    /* background-image: url("https://getwellbe.com/wp-content/uploads/2018/03/aromatherapy_flipped_shutterstock1920.jpg"); */
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.vpzfWdEkLC7Z8I_86v4XnQHaE5%26pid%3DApi&f=1&ipt=cabd81fcba091be0093a5efdb861fb3856cc92602cf791869d21016a035cb549&ipo=images");
+    /* background-blend-mode: darken;
+    background-blend-mode: difference; */
+    background-size: cover;
+}
+.logo{
+    background-image: url("aroma.png");
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    margin-bottom: -30px;
+    padding-right: 70px;
+}
+.navigation{
+    vertical-align: middle;
+    height: 5vh;
+    padding: 30px;
+}
+nav{
+    display: inline-block;
+    width: fit-content;
+}
+ul{
+    display: inline-block;
+    width: fit-content;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    padding-right: 70px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px 0px 8px black;
+    font-size: large;
+}
+.content{
+    height: 95vh;
+    align-items: center;
+    text-align: center;
+
+}
+.winded{
+    display: inline-block;
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
+}
+.headding{
+    font-size: 92px;
+    text-shadow: 0px 0px 24px black;
+}
+.description, .boxed{
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 0px 0px 8px black;
+}
+.boxed{
+    padding: 5px;
+    display: inline-block;
+    width: 125px;
+    border: 2px solid white;
+    text-shadow: 0px 0px 8px black;
+    box-shadow: inset 0 0px 8px rgba(0, 0, 0, 0.468);
+}

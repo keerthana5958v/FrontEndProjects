@@ -1,0 +1,22 @@
+body{
+    background-color:black;
+    text-align: center;  
+}
+h3{
+    color: white;
+}
+h2{
+    color: white;
+}
+figcaption{
+    color: white;
+    font-size: small;
+}
+.green{
+    color: aquamarine;
+    text-decoration: underline;
+}
+#mid{
+    color: grey;
+    text-decoration: none;
+}

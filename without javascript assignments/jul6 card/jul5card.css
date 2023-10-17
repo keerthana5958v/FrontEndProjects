@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+}
+body{background-color: black;}
+section{
+    background-color: black;
+    width: fit-content;
+    margin:30px auto;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 48px;
+}
+.wrapper{
+    box-sizing: content-box;
+    display: inline-block;
+    width: 300px;
+    border: 10px solid black;
+}
+.cont1{background-color: blueviolet;}
+.cont2{background-color: green;}
+.cont3{background-color: orangered;}
+.celebimg{
+    margin: auto;
+    /* border: 2px solid black; */
+    width: 270px;
+    height: 500px;
+    box-sizing: border-box;
+}
+.image1{
+    background: url("https://m.economictimes.com/thumb/msid-95273120,width-1200,height-900,resizemode-4,imgsize-39514/taylor-swift.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.image2{
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.billboard.com%2Ffiles%2F2020%2F10%2F02-Ariana-Grande-press-photo-2020-cr-Dave-Meyers-billboard-1240-1603458804-compressed.jpg&f=1&nofb=1&ipt=97540e502455d4166d7382e425b1c3d3e76e43d7a97a9679ca64fe64278ccc88&ipo=images");
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthecelebsclub.com%2Fwp-content%2Fuploads%2F2020%2F09%2Fshawn-and-camila-cabello-Havana-1920x1280.jpg&f=1&nofb=1&ipt=bf5c7f076ac5ec9a30592de76df60b9d64ae02953a87fb1f0b657a77185f8472&ipo=images");
+    background-position: center;
+    background-size: cover;
+}
+.description{
+    padding: 10px 20px;
+    color: white;
+
+}
+.anchor{padding: 10px;}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+.one{color: blueviolet;}
+.two{color: green;}
+.three{color: orangered;}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-image: url("https://wallpaperaccess.com/full/1892334.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 62px;
+    font-family: 'Pacifico', cursive;
+    color: #eee;
+    text-shadow:0 0 10px #222;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+    font-size: x-large;
+    word-spacing: 2px;
+    color: #eee;
+    text-shadow:0 0 10px #222;
+    font-weight: 600;
+} 

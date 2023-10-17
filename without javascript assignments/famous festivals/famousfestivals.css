@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.wrapper{
+    width: 500px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px auto;
+    position: relative;
+    
+}
+.wrapper:hover .image{
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    transition: 3s;
+}
+.wrap1{background-color: grey;}
+.wrap2{text-align: right;
+    background-color: rgb(171, 171, 171);
+}
+.wrap3{background-color: rgb(204, 204, 204);}
+
+h2{
+    padding: 10px;
+}
+h1{text-align: center;}
+.description{
+    padding: 10px;
+    line-height: 1.5;
+    display: inline-block;
+    width: 400px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+      
+    background-size: cover; 
+    position: absolute; 
+}
+.image1, .image3{
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 500px;
+}
+.image1{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc9%2F30%2F2b%2Fc9302b592f990a99736ae7a592a7fcce.jpg&f=1&nofb=1&ipt=61c6891e1e89d8a421cf53d4995a49edd1a58be6f57c18ee0aecacdc344f5034&ipo=images");
+    background-position: center;
+}
+.image3{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F910%2F910466.jpg&f=1&nofb=1&ipt=ca77284b2352096980b10ea233818813e560a2f14bb259dc5c352cea3eb53fe5&ipo=images");
+    background-position: top;}
+.image2{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.She69npuYuPbM7ZsskX7FgHaEj%26pid%3DApi&f=1&ipt=3b07f160b8e24842b4aba709bdafdd05fc9f8d4fce1d5d80edb8fd11443ba9ce&ipo=images");
+    bottom: 0%;
+    left: 0%;
+    border-top-right-radius: 500px;
+}

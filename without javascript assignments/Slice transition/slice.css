@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;   
+    font-weight: 700;
+}
+.section{
+    width: 350px;
+    /* height: 200px; */
+    vertical-align: center;
+    /* border: 2px solid black; */
+    margin: 50px auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.slider{
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    right: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+    
+    
+}
+.section:hover .slider{
+    right: 0%;
+}
+.slider1{
+    transition: 0.8s;
+}
+.slider2{
+    transition: 1.6s;
+}
+.slider3{
+    transition: 2.4s;
+}
+.sect1{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-cdn1.3dissue.com%2Fwp-content%2Fuploads%2F2013%2F07%2Fhtml5.png&f=1&nofb=1&ipt=3eebe8c678aa29593da1ad0dd3934c8a7c040f007caa0048121be8b6f19c9e9f&ipo=images");
+}
+.sect2{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.goldenapplewebdesign.com%2Fwp-content%2Fuploads%2F2011%2F07%2Fcss3.jpg&f=1&nofb=1&ipt=22e4b72ddab703998e2442c6e77b50bc1f7816d7d05df7ef4ce9623fd6b6d885&ipo=images");
+}
+.sect3{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftutorialzine.com%2Fmedia%2F2015%2F12%2Fjavascript.png&f=1&nofb=1&ipt=a670f806be70ffb40c7e56b526db871eeb80536ca94caf9efb31d278bc4982b5&ipo=images");
+}
+.bacg1{
+    background-color: rgba(38, 156, 207,0.9);
+}
+.bacg2{
+    background-color: rgba(240,240,240,0.9);
+}
+.bacg3{
+    background-color: rgba(241, 215, 34,0.9);
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+.body{
+    height: 100vh;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.lifestyleasia.com%2Fwp-content%2Fuploads%2F2018%2F06%2F04104345%2FBlack-Soul-001.png&f=1&nofb=1&ipt=30017622bbe97f8b27c572db2787119d336bab9277afac59b8de60e24d2d7da7&ipo=images");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    border-bottom: 2px solid rgba(230, 230, 255, 0.7);
+}
+nav h2{
+    padding: 0 15% 0 5%;
+    color: white;
+    font-size: 38px;
+    text-shadow: 0 0 10px #222;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    text-shadow: 0 0 10px #222;
+    padding: 5px;
+}
+.last-a{
+    padding-right: 15%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 10px #111;
+    flex-grow:1;
+}
+h1{
+    font-size: 42px;
+    padding: 5px;
+}
+p{
+    width: 45%;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}

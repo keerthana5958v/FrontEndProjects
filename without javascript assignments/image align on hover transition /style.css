@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-size: xx-large;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
+section{
+    display: flex;
+    width: fit-content;
+    margin: 100px auto;     
+}
+div{
+    display: flex;
+    width: 350px;
+    height: 210px;
+    background-size: cover;
+    background-position: center;  
+    border-radius: 20px;   
+    transition-duration: 1s;
+    box-shadow: 0px 0px 10px #333;
+}
+.div1{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F146024%2Fpexels-photo-146024.jpeg%3Fcs%3Dsrgb%26dl%3Dafrican-wild-dog-animal-animal-photography-146024.jpg%26fm%3Djpg&f=1&nofb=1&ipt=2dd1a2c596e27d71cd677c67df231742985cf1e438429532baacd2eb33720eb2&ipo=images");
+    transform: rotateZ(20deg);
+    margin-right: -350px;  
+}
+.div2{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.treehugger.com%2Fthmb%2F0sghgHVvhzUh38ylxTXTk2i50rU%3D%2F2121x1414%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FGettyImages-1154214539-d5578c20b7b8417dbc5a82971f79c03e.jpg&f=1&nofb=1&ipt=8d16058ed7b573fa1eb996ef99374d4c13a86109bf05bcf9272e507c3133de46&ipo=images");
+    transform: rotateZ(10deg);
+}
+.div3{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fda%2Fdd%2Fba%2Fdaddba7620e24ae320650cbedb2ab656.jpg&f=1&nofb=1&ipt=fa092974090bf660f347c71c67c53b366d9076dbd0e2f2b2499d9d6476b63bfa&ipo=images");
+    transform: rotateZ(-5deg);
+    margin-left: -350px;
+    transition-delay: 0.5s;
+}
+section:hover .div1{
+    transform: rotateZ(0);
+    transform: translateX(400px);  
+}
+section:hover .div2{
+    transform: rotateZ(0);
+    transform: rotateZ(0);
+}
+section:hover .div3{
+    transform: rotateZ(0);
+    transform: translateX(-400px);
+}

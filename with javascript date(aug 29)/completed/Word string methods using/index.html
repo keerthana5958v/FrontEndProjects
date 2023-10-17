@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="MegaWrap">
+            <div class="displayWrap c1">
+                <div class="name">Letter Count:</div>
+                <div class="display" id="displayCharCount"></div>
+            </div>
+        
+            <div class="displayWrap c2">
+                <div class="name">Word Count:</div>
+                <div class="display" id="displayWordCount"></div>
+            </div>
+
+            <div class="displayWrap c3">
+                <div class="name">Longest Word:</div>
+                <div class="display" id="longestWord"></div>
+            </div>
+
+            <div class="displayWrap c4">
+                <div class="name">Average Word Length:</div>
+                <div class="display" id="AvgWrdLen"></div>
+            </div>
+        </div>
+
+        <div class="txtArea">
+            <textarea name="" id="textArea" cols="30" rows="20" oninput="wordCount(); longestWord(); averageWordLen()" placeholder="Enter your text"></textarea>            
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

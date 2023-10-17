@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.parent{
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 50px auto;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-1Z_9fTnw40g%2FTtS6v_noidI%2FAAAAAAAAASc%2FbgMy7nqWp9I%2Fs1600%2F6.jpg&f=1&nofb=1&ipt=49d2bb01c0fda4941658b602f20e1412887c2aeee5094c6ac073d412f4a7cf0e&ipo=images");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    
+}
+.parent:hover .child1{
+    clip-path:circle(100% at 50% 50%);
+}
+.child1{
+    background-color: rgba(200,200,200,0.4);
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    clip-path: circle(0% at 100% 100%);
+    transition:0.5s;
+}
+
+.child2{
+    color: white;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    line-height: 1.5;
+    font-size:larger;
+    padding:  50px 20px;
+    text-align: center;
+}

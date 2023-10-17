@@ -1,0 +1,75 @@
+body{
+    text-align: center;}
+h3{
+    margin: 2px;
+    padding: 10px;}
+figure{
+    width: fit-content;
+    margin: auto;}
+nav{
+    background-color: #b3d022;
+    margin: auto;
+    padding: 10px 5px;
+    width: 35vw;}
+.light-heading{
+    color: white;
+}
+section>p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;}
+footer{
+    background-color: #ffedb2;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin: 0px;}
+nav>a{
+    text-decoration: none;
+    color: #09590c;
+    font-weight: bold;
+    padding: 5px;}
+.margin-dark{
+    border: 10px solid #09590c;
+    padding: 0px;}
+.margin-light{
+    border: 10px solid #ffedb2;
+    padding: 0px;}
+.triad{
+    background-color: #09590c;} 
+/* #ffea62 */ 
+.light{
+    background-color: #ffedb2;}
+.dark{
+    background-color: #09590c;}
+.bg-dark{
+    background-color:#09590c;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;}
+.bg-dark>a{
+    color: white;}
+.bg-light{
+    background-color: #ffedb2;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;}
+.bg-light>a{
+    color: #09590c;}
+.bg-dark-caption{
+    background-color: #09590c;}
+.bg-light-caption{
+    background-color: #ffedb2;}
+figcaption{
+    padding: 4px;}
+section{
+    padding: 10px;}
+.white-text{
+    color: white;}
+#head{
+    padding-top: 10px;
+    color: #ffedb2;}
+.color-white-head{
+    color: #b3d022;}
+.light-caption{
+    color: white;
+}

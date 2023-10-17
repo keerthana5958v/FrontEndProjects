@@ -1,0 +1,217 @@
+// // const INPUT = document.getElementById('gtTxt');
+// // const SELECT1 = document.getElementById('baseSelect');
+// // const SELECT2 = document.getElementById('nextbaseSelect');
+// // const DISPLAY = document.getElementById('displayOP')
+
+
+// // function AnyBaseToDecimal(n,m){
+// //     let decimal =0;
+// //     let power =0;
+
+// //     for(let i=n.length-1;i>=0;i--){
+// //         let val=n[i];
+// //         if(val=="A"){
+// //             val="10";
+// //         }
+// //         if(val=="B"){
+// //             val="11";
+// //         }
+// //         else if(val=="C"){
+// //             val="12";
+// //         }
+// //         else if(val=="D"){
+// //             val="13";
+// //         }
+// //         else if(val=="E"){
+// //             val="14";
+// //         }
+// //         else if(val=="F"){
+// //             val="15";
+// //         }
+// //         decimal+=val *(Math.pow(m,power));
+// //         power++;
+// //     }
+// //     return decimal;
+// // }
+
+// // function reverseString(string) {
+// //     var size = str.length;
+// //     this.reverse = function () {
+// //         while(size--){
+// //             console.log(string[size]);
+// //         }
+// //     }
+// // }
+
+// // function DecimalToAnyBaseConverter(n,m){
+// //     ans = '';
+// //     binaryOp = '';
+// //     while(n>0){
+// //         digitValue = n % m;
+// //         if (digitValue == 10){
+// //             digitValue = 'a';
+// //         }
+// //         if (digitValue == 11){
+// //             digitValue = 'b';
+// //         }
+// //         if (digitValue == 12){
+// //             digitValue = 'c';
+// //         }
+// //         if (digitValue == 13){
+// //             digitValue = 'd';
+// //         }
+// //         if (digitValue == 14){
+// //             digitValue = 'e';
+// //         }
+// //         if (digitValue == 15){
+// //             digitValue = 'f';
+// //         }
+// //         n = Math.floor(n/m)
+// //         ans += ""+ digitValue
+// //         binaryOp = reverseString(ans)
+// //     }
+// //     DISPLAY.textContent = binaryOp;
+// //     return binaryOp;
+// // }
+
+// // function whatToDisplay(){
+    
+// //     DISPLAY.textContent = '123'
+// // }
+// const INPUT = document.getElementById('gtTxt');
+// const SELECTOR1 = document.getElementById("select1");
+// const SELECTOR2 = document.getElementById("select2");
+// const RESULT = document.getElementById('displayOP');
+// let boolean = true;
+
+// function clearInput() {
+//     RESULT.textContent = "0"; 
+//     INPUT.value = "";
+//     RESULT.style.color = "white";
+//   }
+
+//   function checkInput() {
+//     let validCharacters;
+//     const input = INPUT.value;
+//     const inputBase = SELECTOR1.value;
+  
+//     switch (inputBase) {
+//       case "binary":
+//         validCharacters = "01";
+//         break;
+//       case "octal":
+//         validCharacters = "01234567";
+//         break;
+//       case "hex":
+//         validCharacters = "0123456789ABCDEFabcdef";
+//         break;
+//       case "decimal":
+//         validCharacters = "0123456789";
+//         break;
+//     }
+  
+//     validInput = [...input].every(char => validCharacters.includes(char));
+  
+//     if (!validInput) {
+//       RESULT.textContent = "Invalid Input";
+//       RESULT.style.color = "#eb3d3d";
+//     } else {
+//       RESULT.textContent = "0";
+//       calculating();
+//     }
+//   }
+
+// function calculating() {
+//     const inputBase = SELECTOR1.value;
+//     const outputBase = SELECTOR2.value;
+//     RESULT.style.color = "white";
+  
+//     if (validInput) {
+//       switch (inputBase) {
+//         case "decimal":
+//           RESULT.textContent = toAnyBase(INPUT.value, outputBase);
+//           break;
+//         case "binary":
+//         case "octal":
+//         case "hex":
+//           RESULT.textContent = toDecimal(INPUT.value, inputBase, outputBase);
+//           break;
+//       }
+//     }
+//   }
+
+// function decimalToAnyBase(num, base) {
+//   let remainder = '';
+//   while (num > 0) {
+//     let currentRemainder = num % base;
+//     if (base == 16) {
+//       if (currentRemainder >= 10 && currentRemainder <= 15) {
+//         switch (currentRemainder) {
+//           case 10:
+//             remainder += 'A';
+//             break;
+//           case 11:
+//             remainder += 'B';
+//             break;
+//           case 12:
+//             remainder += 'C';
+//             break;
+//           case 13:
+//             remainder += 'D';
+//             break;
+//           case 14:
+//             remainder += 'E';
+//             break;
+//           case 15:
+//             remainder += 'F';
+//             break;
+//         }
+//       } else {
+//         remainder += currentRemainder;
+//       }
+//     } else {
+//       remainder += currentRemainder;
+//     }
+//     num = parseInt(num / base);
+//   }
+//   remainder = remainder.split('').reverse().join('');
+//   return remainder;
+// }
+
+// function toDecimal(num, multiplier) {
+//   let decimal = 0;
+//   let power = 0;
+//   if (boolean == true) {
+//     for (let i = num.length - 1; i >= 0; i--) {
+//       let output = num[i];
+//       if (SELECTOR1.value == "hex") {
+//         if (output == 'A' || output == 'a' ) {
+//         decimal += 10 * Math.pow(multiplier, power);
+//         }
+//         else if (output == 'B'|| output == 'b') {
+//           decimal += 11 * Math.pow(multiplier, power);
+//         }
+//         else if (output == 'C' || output == 'c') {  
+//           decimal += 12 * Math.pow(multiplier, power);
+//         }
+//         else if (output == 'D' || output == 'd') {
+//           decimal += 13 * Math.pow(multiplier, power);
+//         }
+//         else if (output == 'E' || output == 'e') {
+//           decimal += 14 * Math.pow(multiplier, power);
+//         }
+//         else if (output == 'F' || output == 'f') {
+//           decimal += 15 * Math.pow(multiplier, power);
+//         }
+//         else {
+//           decimal += output * Math.pow(multiplier, power);
+//         }
+//       }
+//       else {
+//           decimal += output * Math.pow(multiplier, power);
+//       }
+//       power++;
+//     }
+//     return decimal;
+//   } 
+// }

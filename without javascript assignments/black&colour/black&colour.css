@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 50px auto;
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.background{
+    border-right: 2px solid white;
+    width: 0;  
+    transition: 1s;
+}
+.black{
+    width: 350px;
+    filter: grayscale();
+    transition: 2s;   
+}
+.background, .black{
+    height: 300px;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.buzzle.com%2Fmedia%2Fimages-en%2Fgallery%2Fbotany%2Fflowers%2F1200-481253425-light-pink-lotus-flower.jpg&f=1&nofb=1&ipt=cc2dc7df5b6e1dac15ce3d7e512ed518c02625fb0d6747a81fabc3dc48e9adaa&ipo=images"); 
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+}
+section:hover .background{
+    width: 350px;
+}
+
+

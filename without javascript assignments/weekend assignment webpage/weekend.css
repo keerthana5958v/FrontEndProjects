@@ -1,0 +1,279 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+                        /* section 1 */
+.nav-ul,nav {
+  display: inline;
+  width: fit-content;
+  
+}
+.nav{
+  padding: 20px;
+}
+nav {
+  height: 10vh;
+  width: fit-content;
+  position: absolute;
+  top:40px;
+  right: 30px;
+}
+.nav-a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-li {
+  display: inline-block;
+  width: fit-content;
+  padding-left: 30px;
+  color: white;
+  transition: 0.5s;
+  
+}
+
+.nav-li:hover {
+  cursor: pointer;
+  color: rgb(253, 82, 25);
+  text-decoration: underline;
+}
+
+.sec1 {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Venice-Italy-Background-Download-Free-768x480.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.filter {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.text1 {
+  padding: 5px;
+  width: 100%;
+  margin: 20% auto;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+                                                    /* section 2   */
+
+
+h2,.s2-p {
+  padding: 15px;
+}
+.sec2{
+  background-color: #fff4db;
+}
+
+.text2 {
+  width: 90%;
+  padding: 3% 0;
+  margin: 0 auto;
+  text-align: center;
+  color: grey;
+}
+
+.parag-s2 {
+  width: 80%;
+  margin: auto;
+}
+
+.span-colour {
+  color: rgb(253, 82, 25);
+  font-style: italic;
+}
+
+                              /* art && music && literature */
+.secwrapper{
+  background-color:#eaffdb;
+}
+
+.art, .music, .literature{
+  display: inline-block;
+  width: 60%;
+  margin: 0% 20%;
+  padding: 3% 0;
+  
+  /* border: 2px solid black; */
+  
+}
+.halfdiv{
+  display: inline-block;
+  width: 49.5%;
+  height: fit-content;
+  /* border: 2px solid black; */
+  padding: 0% 2% 0;
+  vertical-align: middle;
+  text-align: center;
+  color: grey;
+  line-height: 1.3;
+  max-width: 700px;
+}
+.art-img,.music-img, .literature-img{
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.art-img{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthomaskinkadetx.com%2Fwp-content%2Fuploads%2FItalian-Art.jpg&f=1&nofb=1&ipt=528c50e264ec52603c28d383563c742cee9fe476c0a829b85a6459e8d1717fcd&ipo=images");}
+.music-img{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffrancescoloccisano.com%2Fwp-content%2Fuploads%2F2020%2F11%2Fchitarra-battente-loccisano-480x320.jpg&f=1&nofb=1&ipt=93cd7f3bcc97619deacb9c2c8a9c2d758a4c83835a65811662493631939b51ca&ipo=images");}
+.literature-img{background-image: url("https://i.pinimg.com/564x/6a/83/7d/6a837db2a9ad9a0636558ab1fbcbe78b.jpg");}
+
+.learnMore{
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(253, 82, 25);
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 5px 0;
+}
+.learnMore:hover{
+  color: rgb(253, 82, 25);
+  background-color: transparent;
+}
+
+.descriptionpart{
+  margin: 15px;
+}
+                                        /* gallery */
+.galh3{
+  padding-bottom: 15px;
+  text-align: center;
+  color: rebeccapurple;
+  font-size: x-large;
+}
+.gallery{
+  width: 100%;
+  padding: 20px 0;
+  /* margin: 2% 0 0 0; */
+  background-color: rgba(228,172,149,0.3);
+  filter: grayscale(40%);
+  /* border: 2px solid grey; */
+}
+.contgal{
+  width: 95%;
+  margin: auto;
+}
+.gallerysection{
+  display: inline-block;
+  width: 19.7%;
+  height: 200px;
+  /* border: 2px solid black; */
+  margin: 0 -2px  0 -2px;
+}
+.galimg1,.galimg2,.galimg3,.galimg4,.galimg5{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galimg1{background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Buidings-Venice-Wallpaper-768x480.jpg");}
+.galimg2{background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Venice-Italy-HD-Wallpaper.jpg");}
+.galimg3{background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Venice-Italy-Background-Free-Download.jpeg");}
+.galimg4{background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Venice-Italy-Photo.jpg");}
+.galimg5{background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/HD-Venice-Italy-Pictures.jpg");}
+
+.galpara{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  /* border: 2px solid black; */
+}
+                                                /* section veiwport */
+
+.sec5 {
+  padding: 15px;
+  text-align: center;
+  background-image: url("https://www.allportcruiseservices.com/wp-content/uploads/2015/10/airliner-plane-sunset-1-e1603093917858.jpg");
+  filter: grayscale(70%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  color: white; 
+  height: 200px;
+}
+                                        /* footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  
+  color: white;
+}
+
+.footer {
+  padding: 20px;
+}
+.ul-footer,.li-footer {
+  display: inline-block;
+  width: fit-content;
+}
+.li-footer {
+  padding: 5px 20px;
+  transition: 0.5s;
+}
+.li-footer:hover {
+  font-size: larger;
+}
+.creater{
+  color: white;
+  text-decoration: none;
+}
+.ul-footer{height: 30px;}
+
+                              /* card section */
+.cardsectitle{
+  text-align: center;
+  color: grey;
+  padding: 40px 0px;
+}
+.cardsec{
+  display: inline-block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #ffe5ea;
+  padding: 20px 0;
+  /* border: 2px solid black; */
+
+}                              
+.card{
+  display: inline-block;
+  width: 25%;
+  margin: 0 4%;
+  vertical-align: top;
+  text-align: center;
+  /* border: 2px solid black; */
+  
+}         
+.cardimg{
+  background-image: url("image2.png");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+.cardimg1{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2FzrONHS-4SIm0ySkio8PsrtKkl-E%3D%2F5710x3799%2Ffilters%3Afill(auto%2C1)%2Fthe-roman-coliseum-during-a-warm-spring-sunset-542105331-58f15ac63df78cd3fc763275.jpg&f=1&nofb=1&ipt=f98a4708547e83844fff733f6a11299ca41b02fbd7e38af5a9379dbe0e04a37e&ipo=images");}                    
+.cardimg2{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperbetter.com%2Fwallpaper%2F115%2F506%2F553%2Fflorence-italy-2016-1080P-wallpaper.jpg&f=1&nofb=1&ipt=8b717325e1da3485c1b1a6e52e9a02c70c44941c4f3c5609a827ab54f577a684&ipo=images");}
+.cardimg3{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tripsavvy.com%2Fthmb%2F7xeQxeAWazzvbzQ_OyIC98kHD_c%3D%2F3865x2576%2Ffilters%3Afill(auto%2C1)%2Fitaly--venice--elevated-view-of-canal-in-city-543346423-59812f179abed50010eeb207.jpg&f=1&nofb=1&ipt=b754cbf4e15695d503750dd01b952f807fdf3e3e26c68f1bc969e2f967a9b40b&ipo=images");}
+.carddescription{
+  line-height: 1.4;
+  margin: 15px 0;
+  display: inline-block;
+  padding: 0% 1% 0;
+  vertical-align: middle;
+
+  color: grey;
+  
+}
+.descpara{
+  padding: 20px;
+  /* margin: 5px 0; */
+}

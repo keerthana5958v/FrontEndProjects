@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    position: relative;
+}
+.body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.service{
+    padding: 16px;
+    width: 300px;
+    flex-shrink: 0;
+    position:relative;
+    height:150px;
+    background-color:lavender;
+    border-radius:15px;
+    overflow: hidden;
+}
+.background-img{
+    position:absolute;
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    bottom:0px;
+    right:0px;
+    width:110px;
+    height:110px;
+    /* border: 1px solid red; */
+}
+p{
+    width: 70%;
+    padding: 8px 0 0 0px;
+}
+.img1{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F682%2FPNG%2F512%2Fcar_icon-icons.com_61086.png&f=1&nofb=1&ipt=a9b4819ea544f6ad3d21b548252beac217e93a383e0fdb929eca67264a52ab43&ipo=images);
+}
+.img2{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetdrawings.com%2Ffree-icon%2Ffree-delivery-icon-60.png&f=1&nofb=1&ipt=c21f95b2529952bad9f989a7145d91e46a3f771db2e5b350b4f618bea9a0f00a&ipo=images);
+}
+.img3{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F07%2F36%2Fdf%2F0736df35c198525e6493d648bf8fc38e.png&f=1&nofb=1&ipt=4907d99e454f2b53c11499da9c756fc9b8c73e853b2d8eb101dec1aae03fcc3d&ipo=images);
+}
+.img4{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2Fmiscellaneous-16-color-shadow%2F128%2Fcarsharing_ride_pooling_carpooling_car_transportation_vehicle_sharing-512.png&f=1&nofb=1&ipt=a7186d7eb9be9c6b1749278ed8b1ad88cc5d8b10ec83a5f9b9754ff45e82b23c&ipo=images);
+}
+.img5{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F296%2F296209.png&f=1&nofb=1&ipt=6e9966564434830775c52a743c205ae2bdf117eefc900b38c2c0c0c767a90eb6&ipo=images);
+}
+.img6{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fbuisness-icon%2Fbuisness-icon-12.jpg&f=1&nofb=1&ipt=e2f5b2c55b55abbf0cce09a0c90c3338ff3c31d113e05f7367c97e556a0a6c1d&ipo=images);
+}

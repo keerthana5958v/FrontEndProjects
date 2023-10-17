@@ -1,0 +1,33 @@
+.card{
+    width: 200px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(250, 239, 232);
+}
+.ice-img{
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    padding-bottom: 5px;
+}
+.close{
+    background-color: rgb(192, 137, 97);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+}
+h2,h3{
+    margin: 0;
+}
+h2{
+    color: rgb(192, 137, 97);
+}
+h3{
+    color: rgb(102, 101, 101);
+}

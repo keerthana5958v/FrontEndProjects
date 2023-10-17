@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.bg {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec1 {
+    background-image: url("yeti.jpg");
+}
+.sec2 {
+    background-image: url("uni.jpg");
+}
+.sec3{
+    background-image: url("The\ Little\ Mermaid\ 4k\ Wallpapers\ hdqwalls_com.jpg");
+}
+.sec4{
+    background-image: url("drag.png");
+}
+.text{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

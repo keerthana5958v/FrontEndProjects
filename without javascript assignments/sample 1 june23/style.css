@@ -1,0 +1,31 @@
+html{
+    background-color:#F0A202;
+    margin-top: 5px;
+}
+h3{
+    font-size: x-large;
+    color: darkblue;
+}
+p{
+    font-size:larger;
+}
+ul{
+    font-size: larger;
+}
+header{
+    font-size: xx-large;
+    font-weight: bold;
+}
+nav{
+    position: sticky;
+    width: 100vw;
+    background-color:#D95D39 ;
+    align-content: flex-start;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}

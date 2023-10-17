@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+}
+nav{
+    justify-content: space-evenly;
+}
+figure{
+    margin-inline-start: 0px;
+    margin-inline-end:0px;
+}
+a{
+    color: white;
+}
+.bg-color{
+    background-color: #910d20;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    width: 100vw;
+    outline: none;
+    vertical-align:top;
+
+}
+.white-bg{
+    background-color: white;
+    color: #910d20;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    width: 100vw;
+    outline: none;
+    vertical-align:top;
+}
+body{
+    background-color: black;
+}

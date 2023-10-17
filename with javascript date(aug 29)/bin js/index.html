@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="getTxt" oninput="checkInput()">
+        <select name="GivenBase" id="select1" onchange="checkInput()">
+            <option value="decimal" id="D1">Decimal</option>
+            <option value="binary" id="B1">Binary</option>
+            <option value="octal" id="O1">Octal</option>
+            <option value="hex" id="H1">Hexadecimal</option>
+        </select>
+
+        <select name="OPBase" id="select2" onchange="checkInput()">
+            <option value="decimal" id="D2">Decimal</option>
+            <option value="binary" id="B2">Binary</option>
+            <option value="octal" id="O2">Octal</option>
+            <option value="hex" id="H2">Hexadecimal</option>
+        </select>
+        
+        <div class="mybuttons">
+            <input type="button" value="Clear" onclick="clearInput()">
+            <input type="button" value="Convert" onclick="calculate()">
+        </div>
+        
+        <div id="displayOP"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

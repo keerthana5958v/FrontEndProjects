@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    display: flex;
+    color: #e1e1e1;
+    text-decoration: none;
+    padding: 5px 3%;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: #3b1a5b;
+    margin: 50px 0;
+    padding: 10px 0;
+}
+.nav1{justify-content: flex-start;}
+.nav2{justify-content:space-evenly ;}
+.nav3{justify-content: flex-end;}

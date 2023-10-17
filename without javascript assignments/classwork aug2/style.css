@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #bdbcbc; */
+}
+section{
+    display: flex;
+    width: 60%;
+    /* border: 2px solid black; */
+    padding: 2% 5%;
+    /* background-color: rgb(226, 226, 226); */
+    
+}
+.image{
+    background-image: url("Scarecrow.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    
+
+}
+.content{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+}
+h1{
+    font-size: 44px;
+    padding: 15px 0px;
+    
+    font-family: 'Tektur', cursive;
+}
+p{
+    font-size: 24px;
+    padding: 10px 0px 20px 0;
+    width: 80%;
+    font-family: 'Tektur', cursive;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 13px;
+    /* margin: 20px 0; */
+    font-family: 'Tektur', cursive;
+    align-self: baseline;
+}

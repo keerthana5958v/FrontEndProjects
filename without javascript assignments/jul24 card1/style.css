@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    text-align: center;
+}
+.main-wrapper{
+    display: inline-block;
+    padding: 30px;
+}
+.mainbox{
+    width: 300px;
+    height: 220px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+    box-shadow: 5px 5px 20px rgba(80,80,80,0.7);
+}
+.bg1{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffree4kwallpapers.com%2Fuploads%2Fwallpaper%2Fhot-emma-watson-wallpaper-1024x768-wallpaper.jpg&f=1&nofb=1&ipt=838a68299abc91fd1932a8f227ea0562f588573a717eb42bff6a546d605eefdd&ipo=images");}
+.bg4{background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages2.fanpop.com%2Fimages%2Fphotos%2F4200000%2FTaylor-Swift-taylor-swift-4200934-1024-768.jpg&f=1&nofb=1&ipt=122e70d38c2647e6556ebe966f1cd2a9002124e1392d520912af887305dc6c17&ipo=images");}
+.bg2{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pagalparrot.com%2Fwp-content%2Fuploads%2F2021%2F03%2Flk-1024x768.jpg&f=1&nofb=1&ipt=4ba280af1985cefc1c4451e39121077b48e090e266708e9fc5805547356c733e&ipo=images")}
+.bg3{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperfx.com%2Fview_image%2Fcool-justin-bieber-1024x768-wallpaper-2077.jpg&f=1&nofb=1&ipt=f85432cf8ca5c67cb0cafc744ec49f786048b7be9a04a98296e86c1a46f4db40&ipo=images")}
+.main-wrapper:hover .mainbox{
+    background-size: 400%;
+}
+.innerbox{
+    background-color: rgba(100, 15, 15,0.7);
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .7s;
+    transition-delay: 0.2s;
+}
+.main-wrapper:hover .innerbox{
+    opacity: 100%;
+}
+
+.innerbox > h3, .innerbox > p, .innerbox{
+    padding: 12px 10px 0px 10px;
+    font-weight: 500px;
+    text-align: center;
+    line-height: 1.3;
+    color: white;
+}
+a{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+
+}

@@ -1,0 +1,34 @@
+.sect{
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+
+}
+.light{
+    height: 100px;
+    background-color: rgb(249, 210, 223);
+}
+.dark{
+    height: fit-content;
+    background-color: rgb(246, 160, 160);
+    /* align-items: center;
+    align-content: center; */
+}
+
+.cent,h3{
+    text-align: center;
+    margin: 0px;
+}
+.cont{
+    text-align: justify;
+    padding: 20px;
+    margin: 0px;    
+}
+img{
+    margin-top: -50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-self: center;
+    border-radius: 50%;
+    border: 5px solid white;
+}

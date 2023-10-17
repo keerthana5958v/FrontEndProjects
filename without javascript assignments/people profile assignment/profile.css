@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #e6e9ef;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 500px;   
+}
+.wrapperstudent{
+    
+    display: flex;
+    align-items: center;
+    padding: 16px 16px 8px;
+    border-bottom: 2px solid #12192fb8;
+}
+.wrapperstudent:hover{
+    background-color: #d6d9df;
+}
+.wrapperstudent:nth-last-child(1){
+    border-bottom: none;
+}
+.name{
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #12192f;
+    padding-bottom: 4px;
+}
+.description{
+    padding: 8px 0px 8px 16px;
+}
+p{color: #666;}
+
+.profilepicture{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.person4{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F74133%2Fscreenshots%2F1888531%2Favatar-cool.jpg&f=1&nofb=1&ipt=ebc8bb88167bdce1f4fd51b9f45f69c940747d2f4cabf3ad8c024d831bd60e6a&ipo=images");}
+.person2{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2Fb4%2Fb4%2F4d%2Fb4b44d3367a51b5f4cc9d35a6307b594.jpg&f=1&nofb=1&ipt=cf5ffe17d478d2a674f4230d557aa0797fa67388f207ffc9067f57d865b8e36c&ipo=images");}
+.person3{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.chatterblock.com%2Fcache%2Fe5%2F98%2Fe598d08e294befee3a0f9945aa651a3c.png&f=1&nofb=1&ipt=4600a9ae9af0bebc0d57a77b757ab6827def0d137f2a1379f83ba90ef8ed941d&ipo=images");}
+.person1{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F746%2F042%2Foriginal%2Fprogrammer-flat-color-icon-computer-expert-man-coding-on-laptop-freelance-software-developer-at-work-person-avatar-cartoon-style-clip-art-for-mobile-app-isolated-rgb-illustration-vector.jpg&f=1&nofb=1&ipt=11daadc2da3ec4e7dbd36ee7bff9d36b972ee3bc6561cf40ab989d7b705699eb&ipo=images");}
+.person5{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJw7JiA0z6jIiM_HQVYzMZj7pJwn2eB4B9LynQ%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=c81edcd7f347418dfdc2a5f5904d6fc0d9c019069fa4432cd6da90e682612125&ipo=images");}
+
+
+@media screen and (max-width:400px){
+    section{
+        width: 100%;
+        margin: 0;   
+    }
+    .wrapperstudent{
+        flex-direction: column;
+        align-items: center;
+        padding: 16px ;
+
+    }
+    .description{
+        padding: 8px 0px 0 0; }
+    p{
+        text-align: center;  }
+}

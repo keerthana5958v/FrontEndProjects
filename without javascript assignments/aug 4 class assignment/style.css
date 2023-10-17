@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section{   
+    display: flex;
+    justify-content: center;
+
+}
+.wrapper{
+    align-self: stretch;
+    align-items: stretch;
+    margin: 20px;
+}
+h3{
+    text-transform: uppercase;
+    padding: 10px 0px;  
+}
+
+.main{
+    position: relative;
+    border-radius: 10px ;
+    width: 300px;
+    /* border: 2px solid black;  */
+    font-size: 18px;
+    padding: 30px 25px;
+    text-align: justify;
+    vertical-align: middle;
+    background-color: rgb(10,43,78);
+    color: white;  
+    height: 100%;
+    box-shadow: 0 0 10px rgba(51, 51, 51,0.6);
+}
+.purple{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px ;
+    clip-path: circle(95.7% at 68% 68%);
+    transition: .5s;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.green{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(167,24,20);
+    border-radius: 10px ;
+    /* clip-path: circle(95.7% at 68% 68%); */
+    clip-path: circle(100.2% at 28% 31%);
+    transition: .5s;
+    transition-delay: .3s;
+}
+.main:hover .purple{
+    clip-path: circle(0% at 68% 68%);;
+}
+.main:hover .green{
+    clip-path: circle(0% at 28% 31%);
+}
+
+.back1{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg00.deviantart.net%2Ffdc7%2Fi%2F2016%2F212%2F6%2F1%2Fspider_man_homecoming_poster_by_goxiii-da06flq.jpg&f=1&nofb=1&ipt=9bc2d2526b3acc96b1b39946e902d375896b7b89b69db7354e4dce51882563b4&ipo=images");}
+.back2{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.cinemaexpress.com%2Fuploads%2Fuser%2Fimagelibrary%2F2019%2F9%2F6%2Foriginal%2Fspider-man-mcu-homecoming-1566733262.jpg&f=1&nofb=1&ipt=755a92567176b788cd30f2a89f8af91a0b593bce9394a9ad8c20cacf0887e7b0&ipo=images");}
+.back3{background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fiz-x.com%2Fwp-content%2Fuploads%2F2021%2F11%2FMarvels-SPIDERMAN-NO-WAY-HOME-New-Poster.jpeg&f=1&nofb=1&ipt=ef998c0ab629bff7a3bbfe3227895fcb224d239b27c689580ad814ad36d0d589&ipo=images");}
