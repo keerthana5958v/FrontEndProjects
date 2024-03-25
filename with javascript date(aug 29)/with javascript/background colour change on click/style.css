@@ -1,0 +1,20 @@
+.bt{
+    padding: 12px;
+    font-size: 20px;
+    color: rgb(255, 239, 202);
+    font-weight: 600;
+    text-shadow: 0 0 5px rgb(16, 16, 20);
+    border: 3px solid rgb(255, 239, 202);
+    box-shadow: 0 0 5px rgb(16, 16, 20);
+    transition: .3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(170, 80, 114);
+}
+body{
+    transition: .3s;
+    background-color: rgb(170, 80, 114);
+
+}

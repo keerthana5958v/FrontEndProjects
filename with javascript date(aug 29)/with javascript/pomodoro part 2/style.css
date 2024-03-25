@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Roboto+Mono:wght@700&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Mono', monospace; */
+/* font-family: 'Anton', sans-serif; */
+font-family: 'Cabin', sans-serif;
+}
+body{
+    background-color: #ffc87c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#div{
+    font-size: 66px;
+    width: 230px;
+    height: 230px;
+    color: #5b3256;
+    font-weight: 500;
+    border: 12px solid #5b3256;
+    box-shadow: 0 0 0 12px #5b325677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 36px 0;
+}
+#div::selection, #time::selection{
+    background-color: transparent;
+}
+select , input[type="button"]{
+    width: 160px;
+    padding: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #5b3256;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #ffc87c;
+    margin-bottom:  20px;
+    text-align: center;
+}
+select:focus{
+    background-color: #5b3256;
+    border: 3px solid transparent;
+    box-shadow: 0 0 0 transparent;
+}
+#info{
+    width: 270px;
+    padding: 40px 12px;
+    font-size: 18px;
+    border: 3px solid #5b3256;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    transform: translateX(180%);
+    transition: 1s;
+    background-color: #ffc87c;
+    color: #5b3256;
+    /* box-shadow:  0 0 0 100px #ffc87c; */
+    transition: 1s;
+}
+
+section{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffc87c;
+    padding-bottom: 12px;
+
+}
+#pause{
+    display: none;
+}
+#palette{
+    position: absolute;
+    font-size: 25px;
+    padding: 5px;
+    top: 32px;
+    right: 0px;
+    color: #5b3256;
+}
+.info{
+    align-self: flex-end;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #5b3256;
+    position: absolute;
+    top: 0;
+}
+.container *{
+    font-size: 40px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    padding-top: 10px;
+    border: 2px solid #5b325666;
+    text-align: center;
+    color: #5b3256;
+    margin: 0 6px 20px;
+}

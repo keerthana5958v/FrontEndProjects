@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="section">
+        <div id="info" class="txtClr" >The secret to effective time management is...thinking in tomatoes rather than hours? It may seem silly at first, but millions of people swear by the life-changing power to the Pomodoro Technique.<br><br>click button to change your duration</div>
+        <i class="fa-solid fa-palette" id="palette" onclick="colorSwitch()"></i>
+        <div id="dispinfo" class=" info"><i class="fa-solid fa-circle-info" onclick="dispInfo()"></i></div>
+  
+        <div id="div" class="txtClr"><span id="time">25</span>:<span class="txtClr" id="second">00</span></div>
+  
+        <div class="container">
+            <i class="fa-solid fa-mug-saucer" onclick="document.getElementById('time').textContent= '5';changeTime(this)"></i>
+            <i class="fa-solid fa-moon" onclick="document.getElementById('time').textContent= '15';changeTime(this)"></i>
+            <i class="fa-solid fa-briefcase" onclick="document.getElementById('time').textContent= '25';changeTime(this)"></i>
+        </div>
+        <input type="button" class="BGClr bt" id="run" value="run" onclick="timerRun(+document.getElementById('time').textContent);">
+        <input type="button" class="BGClr bt" id="pause" value="pause" onclick="pause()">
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+  
+</html>

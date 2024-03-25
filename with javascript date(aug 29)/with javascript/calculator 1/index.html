@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workout</title>
+
+
+        
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Jost:wght@600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .format{
+            display: flex;
+            width: 400px;
+            margin: 8px;
+            gap: 12px;
+        }
+        section{
+            display: inline-block;
+            background-color: #272829;
+            padding: 4px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%)
+            
+        }
+        .wid{
+            width: 100%;
+        }
+        ::selection{
+            background-color: #fff6ea;
+            color: #61677a;
+        }
+        #display{
+            border: 1px solid black;
+            width: 100%;
+            height: 1.2em;
+            padding: 0 8px;
+        }
+        h2{
+            padding: 12px;
+            margin: 4px;
+            color: #fff6ea;
+            margin: auto;
+            
+        }
+        #display, input[type="number"], input[type="button"]{
+            padding: 8px;
+            margin: 4px;
+            font-size: 20px;
+            background-color: #61677a;
+            color: #fff6ea;
+            border: 0px solid #272829;
+            /* box-shadow: -2px -2px  4px 1px #fff6ea6b, 2px 2px  4px 1px #0505056b; */
+            
+        }
+        ::placeholder{color: #fff6eabd;
+        font-weight: 400;
+    font-size: 16px;}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="format"><h2>Calculator</h2></div>
+        <div class="format">
+            <input type="number" value="" placeholder="Enter number 1" id = "num1" class="wid">
+            <input type="number" value="" placeholder="Enter number 2" id = "num2" class="wid">
+        </div>
+        <div class="format">
+            <input type="button" value="+" id="button" onclick="add()" class="wid">
+            <input type="button" value="-" id="button" onclick="sub()" class="wid">
+            <input type="button" value="x" id="button" onclick="mul()" class="wid">
+            <input type="button" value="/" id="button" onclick="div()" class="wid">
+        </div>
+        <div class="format"><div id="display"></div>
+    </section>
+    </div>
+    <script>
+        const NUM1 = document.getElementById('num1');
+        const NUM2 = document.getElementById('num2');
+        const RESULT = document.getElementById('display');
+        function add(){
+            // const RESULT = (parseInt(NUM1.value) + parseInt(NUM2.value));
+            let result = +(NUM1.value) + +(NUM2.value);
+            functionDisplay(result)
+        }
+        function sub(){
+            let result = +(NUM1.value) - +(NUM2.value);
+            functionDisplay(result)
+        }
+        function mul(){
+            let result = +(NUM1.value) * +(NUM2.value);
+            functionDisplay(result)
+        }
+        function div(){
+            let result = +(NUM1.value) / +(NUM2.value);
+            functionDisplay(result)
+        }
+        function functionDisplay(val){
+            RESULT.textContent=val;
+        }
+    </script>
+</body>
+</html>
