@@ -1,0 +1,12 @@
+div{
+    background-color: gold;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+body{
+    height: 100vh;
+    background-color: beige;
+}

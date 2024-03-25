@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="MainWrapper">
+        <section class="sectionCalc">
+        <div class="contInpBxs">
+            <div class="gtInpBx">
+                <label for="principal">principal ($):&nbsp;</label>
+                <input type="number" class="inpTxt" id="principal">
+            </div>
+        
+            <div class="gtInpBx">
+                <label for="ratex">Rate:&nbsp;</label>
+                <input type="number" class="inpTxt" id="rate">
+            </div>
+        </div>
+        <div class="contInpBxs">
+            <div class="gtInpBx">
+                <label for="time">Time:&nbsp;</label>
+                <input type="number" class="inpTxt" id="time">
+            </div>
+            <div class="gtInpBx yearBox">
+                <select name="year" id="year" class="DropDownBox">
+                    <option value="Years" id="opt1">Year</option>
+                    <option value="month" id="opt2">Month</option>
+                    
+                </select>
+            </div>
+        </div>
+        <div class="buttonWrapper">
+            <div class="contInpBxs"><input type="button" value="calculate" onclick="SICalc()"  class="Btn"></div>
+            <div class="contInpBxs"><input type="reset" value="reset" class="Btn" onclick="reset() "></button></div>
+        </div>
+
+            
+        <div class="dispValues">
+            <div class="valDis">
+                <label for="displayPrincipal">Principal Amount($):&nbsp;</label>
+                <input type="text" id="displayPrincipal" class="viewer">
+            </div>
+
+
+            <div class="valDis">
+                <label for="displaySI">Total Interest($):&nbsp;</label>
+                <input type="text" id="displaySI" class="viewer">
+            </div>
+            
+            <div class="valDis">
+                <label for="displayAmount">Total Amount($):&nbsp;</label>
+                <input type="text" id="displayAmount" class="viewer">
+            </div>
+
+        </div>
+
+
+        
+
+        </section>
+        <section class="Intro">
+            <p class="simpleInt">simple Interest</p>
+            <p class="calc">calculator</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

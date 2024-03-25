@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="5" > -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="MegaWrap">
+        <input type="button" value="StartGame" id="StBtn" onclick="startGame()">
+        <select name="" id="selectRC" onchange="createRows(value)">
+            <option value="none">Select Rows</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <section id="Wrapper"></section>
+        <input type="button" class="Refresh" onClick="window.location.reload();" value="Start Again" id="reload">
+        <h1 class="losePunch" id="looserPunch">Oops, You lose!</h1>
+        <h2 id="score"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
