@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+.box{
+    border: 0.5px solid black;
+    width: 270px;
+    height: 180px;
+    margin: 16px;
+    display: flex;
+    /* border-radius: 15px; */
+}
+.bchild{
+    width: 100%;
+    filter: brightness(60%);
+    border-right: .5px solid black;
+    transition: .5s;
+}
+.bchild:hover{width: 300%;}
+.bchild1{
+    /* border-top-left-radius: 12px; */
+    /* border-bottom-left-radius: 12px; */
+}
+.bchild2{
+    filter: brightness(70%);
+}
+.bchild3{
+    filter: brightness(90%);
+}
+.bchild4{
+    filter: brightness(100%);
+}
+.bchild5{
+    filter: brightness(120%);
+    /* border-top-right-radius: 12px; */
+    /* border-bottom-right-radius: 12px; */
+    border: 0;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 28px;
+    color: #66424d;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 8px;
+    color: #66424d;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+p{
+    font-size: 22px;
+    max-width: 370px;
+    text-align: center;
+    line-height: 1.4;
+    padding: 36px 8px;
+    color: #66424d;
+    border-bottom: 2px solid #66424d;
+    margin-top: 30px;
+}
+.headWrap{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 8px 100px;
+    /* margin-bottom: 60px; */
+}
+section{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    background-color: #f8f8ff;
+    background-image: url('white-grid-background.png');
+    background-size: 50%;
+    padding: 0 8px;
+}
